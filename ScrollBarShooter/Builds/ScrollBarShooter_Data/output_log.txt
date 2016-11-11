@@ -1,0 +1,92 @@
+Initialize engine version: 5.4.2f2 (b7e030c65c9b)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   Intel
+    VRAM:     2111 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.037 seconds
+Platform assembly: C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Wojtek\Documents\ScrollBarShooter\Builds\ScrollBarShooter_Data\Managed\System.dll (this message is harmless)
+desktop: 1680x1050 60Hz; virtual: 3360x1050 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.601131 ms
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+GameController (GameController)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2568 -> priority: 1 
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at ShipController.OnDestroy () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
